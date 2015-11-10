@@ -26,6 +26,7 @@ public class Insertion {
                     SelectionSort.swap(A, j-1 , j);
                 }
                 else break;
+
             }
         }
 

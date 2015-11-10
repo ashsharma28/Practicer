@@ -5,27 +5,26 @@
 public class QuickSort
 {
 
-    public static void main(String[] args) {
 
-        final int A[] = new int[]{ 7,19,12,13,14,15,16,4,2,3,5,6 } ;
-
-        Stopwatch stopwatch = new Stopwatch();
+    public static int[] quickSort(int[] A)
+    {
+        //Stopwatch stopwatch = new Stopwatch();
 
         new QuickSort().sort(A ,A.length - 1  , 0);
 
-        for( int t = 0; t<A.length; t++ )
-            System.out.print( A[t] +",");
+       //System.out.println("\n\nElapsed time is: " + stopwatch.elapsedTime());*/
 
-        System.out.println("\n\nElapsed time is: " + stopwatch.elapsedTime());
-
+        return A;
     }
 
-    private void sort(int[] A ,int hi , int low) {
+
+    private  void sort(int[] A ,int hi , int low) {
         if(hi<=low)
         return;
 
         int j = doPartition( A , hi , low );
         sort(A, j-1 , low);
+
         sort(A, hi, j+1);
     }
 
