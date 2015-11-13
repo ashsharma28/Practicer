@@ -4,18 +4,20 @@
 
 
 public class SelectionSort {
+
+
     public static void main(String[] args) {
         int A[] = new int[]{ -1, 1,3,5,7,9,-2, 3,5,7,9,0,0,0,0,8,6,4,2};
 
-        SelectionSort asd = new SelectionSort();
-        asd.SelectionSortFunc(A);
+        SelectionSort selectionSort = new SelectionSort();
+        selectionSort.selectionSortFunc(A);
        }
 
 
 
 
 
-    private int[] SelectionSortFunc(int[] A) {
+    public static int[] selectionSortFunc(int[] A) {
         int i;
         int p;
 
@@ -38,16 +40,27 @@ public class SelectionSort {
     public static int[] swap(int[] A , int i, int min) {
         int temp=0;
 
-        if(A[i] != A[min])
-        {
+        if(A[i] != A[min]){
             temp = A[i];
             A[i] = A[min];
             A[min] = temp;
             System.out.println("Swapped " + i + "-" + min);
         }
 
+        return A;
+
+    }
 
 
+      public static float[] swapFloats(float[] A , int i, int min) {
+        float temp=0;
+
+        if(A[i] != A[min]){
+            temp = A[i];
+            A[i] = A[min];
+            A[min] = temp;
+            System.out.println("Swapped " + i + "-" + min);
+        }
 
         return A;
 

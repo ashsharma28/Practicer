@@ -6,7 +6,7 @@ public class QuickSort
 {
 
 
-    public static int[] quickSort(int[] A)
+    public static float[] quickSort(float[] A)
     {
         //Stopwatch stopwatch = new Stopwatch();
 
@@ -17,8 +17,7 @@ public class QuickSort
         return A;
     }
 
-
-    private  void sort(int[] A ,int hi , int low) {
+    private  void sort(float[] A ,int hi , int low) {
         if(hi<=low)
         return;
 
@@ -28,7 +27,7 @@ public class QuickSort
         sort(A, hi, j+1);
     }
 
-    private int doPartition(int[] A, int hi , int low) {
+    private int doPartition(float[] A, int hi , int low) {
 
         int i = low, j = hi+1;
 
@@ -42,10 +41,11 @@ public class QuickSort
 
             if(i>=j)break;
 
-            SelectionSort.swap(A, i, j);
+            SelectionSort.swapFloats(A, i, j);
+
         }
 
-        SelectionSort.swap(A, j, low);
+        SelectionSort.swapFloats(A, j, low);
         return j;
     }
 
