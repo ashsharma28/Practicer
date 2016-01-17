@@ -1,3 +1,4 @@
+package edu.ashish.DAA;
 
 /**
  * Created by admin on 10/6/2015.
@@ -8,7 +9,7 @@ public class QuickSort
 
     public static float[] quickSort(float[] A)
     {
-        //Stopwatch stopwatch = new Stopwatch();
+        //edu.ashish.DAA.Stopwatch stopwatch = new edu.ashish.DAA.Stopwatch();
 
         new QuickSort().sort(A ,A.length - 1  , 0);
 

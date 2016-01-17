@@ -1,3 +1,5 @@
+package edu.ashish.DAA;
+
 /**
  * Created by admin on 10/5/2015.
  */
@@ -10,7 +12,7 @@ public class SelectionSort {
         int A[] = new int[]{ -1, 1,3,5,7,9,-2, 3,5,7,9,0,0,0,0,8,6,4,2};
 
         SelectionSort selectionSort = new SelectionSort();
-        selectionSort.selectionSortFunc(A);
+        selectionSortFunc(A);
        }
 
 
@@ -38,9 +40,10 @@ public class SelectionSort {
     }
 
     public static int[] swap(int[] A , int i, int min) {
-        int temp=0;
+        int temp;
 
-        if(A[i] != A[min]){
+        if(A[i] != A[min])
+        {
             temp = A[i];
             A[i] = A[min];
             A[min] = temp;
@@ -53,7 +56,7 @@ public class SelectionSort {
 
 
       public static float[] swapFloats(float[] A , int i, int min) {
-        float temp=0;
+        float temp;
 
         if(A[i] != A[min]){
             temp = A[i];

@@ -7,5 +7,16 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://F:/STUDY MATERIAL/java/Libs/kxml2-2.3.0.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="http://www.xmlpull.org/v1/doc/api" />
+        </JAVADOC>
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>

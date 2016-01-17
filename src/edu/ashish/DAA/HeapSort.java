@@ -1,12 +1,14 @@
+package edu.ashish.DAA;
+
 /**
  * Created by admin on 10/7/2015.
  *//*
 
-public class HeapSort {
+public class edu.ashish.DAA.HeapSort {
     public static void main(String[] args) {
         int A[] = new int[]{8,7,6,5,4,3,2,1};
-        Stopwatch stopwatch = new Stopwatch();
-        HeapSort heapSort = new HeapSort();
+        edu.ashish.DAA.Stopwatch stopwatch = new edu.ashish.DAA.Stopwatch();
+        edu.ashish.DAA.HeapSort heapSort = new edu.ashish.DAA.HeapSort();
 
         A = heapSort.sort(A);
 
@@ -32,7 +34,7 @@ public class HeapSort {
                 for (int t = k; t > -1; t--)
                     A = MaxHeapify(A, t, length);
 
-                SelectionSort.swap(A, 0, length - 1);
+                edu.ashish.DAA.SelectionSort.swap(A, 0, length - 1);
                 length--;
             }
             
@@ -61,7 +63,7 @@ public class HeapSort {
 
                 if (A[maxIndex] > A[index])
                 {
-                    A = SelectionSort.swap(A, index, maxIndex);
+                    A = edu.ashish.DAA.SelectionSort.swap(A, index, maxIndex);
 
                     if ( ( (2 * index) + 2 > length)  );
                     else MaxHeapify(A ,maxIndex, length);
@@ -74,7 +76,7 @@ public class HeapSort {
             {
                 if (A[index] < A[2 * index + 1])
                 {
-                    A = SelectionSort.swap(A, index, 2 * index + 1);
+                    A = edu.ashish.DAA.SelectionSort.swap(A, index, 2 * index + 1);
 
                     if ( ( (2 * index) + 1 > length)  );
                     else MaxHeapify(A , 2 * index + 1, length);

@@ -1,5 +1,5 @@
-/******************************************************************************
- *  Compilation:  javac Stopwatch.java
+package edu.ashish.DAA; /******************************************************************************
+ *  Compilation:  javac edu.ashish.DAA.Stopwatch.java
  *  Execution:    none
  *  Dependencies: none
  *
@@ -9,7 +9,7 @@
  ******************************************************************************/
 
 /**
- *  The <tt>Stopwatch</tt> data type is for measuring
+ *  The <tt>edu.ashish.DAA.Stopwatch</tt> data type is for measuring
  *  the time that elapses between the start and end of a
  *  programming task (wall-clock time).
  *
