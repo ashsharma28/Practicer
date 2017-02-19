@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="edu.ashish.AITRial.TicTacToe.TicTacToe">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none" title="TicTacToe"/>
+    <children>
+      <component id="2de0b" class="javax.swing.JButton" binding="button1" custom-create="true" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-6295428"/>
+          <name value="1"/>
+          <preferredSize width="100" height="100"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="536b2" class="javax.swing.JButton" binding="button2" custom-create="true" default-binding="true">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-6295428"/>
+          <name value="2"/>
+          <preferredSize width="100" height="100"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="516ea" class="javax.swing.JButton" binding="button3">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-6295428"/>
+          <name value="3"/>
+          <preferredSize width="100" height="100"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="b000d" class="javax.swing.JButton" binding="button4">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-6295428"/>
+          <name value="4"/>
+          <preferredSize width="100" height="100"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="b4c5a" class="javax.swing.JButton" binding="button5">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-6295428"/>
+          <name value="5"/>
+          <preferredSize width="100" height="100"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="176ab" class="javax.swing.JButton" binding="button6">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-6295428"/>
+          <name value="6"/>
+          <preferredSize width="100" height="100"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="7da4" class="javax.swing.JButton" binding="button7">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-6295428"/>
+          <name value="7"/>
+          <preferredSize width="100" height="100"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="3665e" class="javax.swing.JButton" binding="button8">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-6295428"/>
+          <name value="8"/>
+          <preferredSize width="100" height="100"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="913ea" class="javax.swing.JButton" binding="button9">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-6295428"/>
+          <enabled value="true"/>
+          <name value="9"/>
+          <preferredSize width="100" height="100"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="1b58d" class="javax.swing.JButton" binding="resetButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Reset"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

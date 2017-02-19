@@ -1,0 +1,9 @@
+void main()
+{
+	int a, b, c, d, e;
+	a=b+c*d;
+	e=a+b-c*d/(c*d);
+
+	printf("%d \n  %d" , a , e);
+}
+

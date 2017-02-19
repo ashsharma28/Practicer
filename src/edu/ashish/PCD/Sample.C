@@ -1,8 +1,6 @@
-#include<math.h>
-#include<conio.h>
-#include<dos.h>
-#include<stdio.h>
-#include<graphics.h>
+
+
+
 
 
 void drawDashed(double x1,double y1, double x2, double y2, int choice);

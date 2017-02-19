@@ -42,4 +42,9 @@ public class Stopwatch {
         return (now - start) / 1000.0;
     }
 
-} 
+
+    @Override
+    protected void finalize() throws Throwable {
+        System.out.println(this.elapsedTime());
+    }
+}
