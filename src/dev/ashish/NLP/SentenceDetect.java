@@ -2,7 +2,6 @@ package dev.ashish.NLP;
 
 import opennlp.tools.sentdetect.SentenceDetectorME;
 import opennlp.tools.sentdetect.SentenceModel;
-import opennlp.tools.util.InvalidFormatException;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -13,9 +12,9 @@ import java.io.InputStream;
  */
 public class SentenceDetect {
 
-    public static void SentenceDetect() throws InvalidFormatException,
+    public static void SentenceDetect() throws
             IOException {
-        String paragraph = "Timeline. This section is easily overlooked, yet it’s arguably more important than the previous section. With the timeline section you show that you understand the problem, that you have thought hard about a solution, and that you have also broken the solution down into manageable bits. If your timeline is reasonable and its deadlines achievable, you show that you have an actual path in mind that would take you from idea to delivery. With this section you set expectations, so do not make promises you cannot keep. A humble, realistic and detailed timeline is much better than a timeline that promises to move mountains. Google has selected the very best open source organizations in the world to take part in Google Summer of Code, and the mentors in these organizations are often the top professionals in their respective fields. Mentors can easily spot unrealistic timelines. ";
+        String paragraph = "Timeline. This section is easily overlooked, yet itï¿½s arguably more important than the previous section. With the timeline section you show that you understand the problem, that you have thought hard about a solution, and that you have also broken the solution down into manageable bits. If your timeline is reasonable and its deadlines achievable, you show that you have an actual path in mind that would take you from idea to delivery. With this section you set expectations, so do not make promises you cannot keep. A humble, realistic and detailed timeline is much better than a timeline that promises to move mountains. Google has selected the very best open source organizations in the world to take part in Google Summer of Code, and the mentors in these organizations are often the top professionals in their respective fields. Mentors can easily spot unrealistic timelines. ";
 
         // always start with a model, a model is learned from training data
         InputStream is = new FileInputStream("C:\\Users\\admin\\IdeaProjects\\Practice\\src\\dev\\ashish\\NLP\\en-sent.bin");
